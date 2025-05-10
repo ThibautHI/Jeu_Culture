@@ -17,7 +17,6 @@ async function startGame() {
 
   // On selectionne le mode jeu
   currentMode = document.getElementById("game-mode").value;
-  console.log(currentMode)
 
   // Charger les données GeoJSON (frontières) et pays (drapeaux, noms)
   const geoRes = await fetch("data/curiexplore-pays.json");
