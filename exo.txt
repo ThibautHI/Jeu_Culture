@@ -1,0 +1,8 @@
+Idée de projet : développer un jeu de culture générale ou lors du début d’une partie, un drapeau apparait, et le joueur doit deviner où se trouve le pays du drapeau. 
+L’utilisateur pin ensuite ou il pense, et il gagne des points s’il trouve le pays, ou s’il est proche à une frontière terrestre maximum. 
+Besoin pour le projet : base de données de l’ensemble des drapeaux dans le monde, même associé à leur position géographique, leur périmètre géographique. Base de données de l’ensemble des pays cartographiés du monde, affichage même sommaire, avec les règles du jeu, le menu principal. 
+Si on a du temps : proposer d’autres mode de jeu autour des drapeaux. 
+Proposer des pays par chapeau, avec les plus « simple » dans le chapeau un, les intermédiaires dans le 2 …. 
+Proposer un mode Europe, Asie, Afrique …
+Si on a encore plus de temps : drapeau de régions
+Problématique : iles en général, étendre la zone de clic pour faciliter le gain de points.

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu des Drapeaux</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+          <h1>🏳️‍🌈 Jeu des Drapeaux 🏳️‍🌈</h1>
+          <p class="author">Projet réalisé par <strong>Adrien TRAVAILLE</strong></p>
+        </div>
+      </header>
+    <div id="menu">
+        <h2>Choisissez un mode de jeu :</h2>
+        <select id="game-mode">
+            <option value="world">Monde Complet (Hardcore)</option>
+            <option value="Europe">Europe</option>
+            <option value="Asia">Asie</option>
+            <option value="Africa">Afrique</option>
+            <option value="Americas">Amériques</option>
+            <option value="Oceania">Océanie</option>
+        </select>
+        <br><br>
+        <button onclick="startGame()">Jouer</button>
+
+    </div>
+    <div id="game" style="display:none;">
+        <img id="flag" src="" alt="Drapeau à deviner" />
+        <div id="map"></div>
+        <p id="score">Score : 0</p>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
