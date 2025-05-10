@@ -48,7 +48,10 @@ async function startGame() {
 
   // Initialiser la carte
   map = L.map("map").setView([20, 0], 2);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+  L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributeurs | Tuile française',
+    maxZoom: 19
+  }).addTo(map);
 
   L.geoJSON(countriesGeoJSON, {
     onEachFeature: function (feature, layer) {
